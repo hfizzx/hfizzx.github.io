@@ -1,0 +1,134 @@
+body {
+    /* min-height: 3000px; */
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #2E4156;
+    color: #e6e9ed;
+}
+
+svg {
+    padding-bottom: 0;
+}
+
+#about {
+    background-color: #8e9c9c;
+    /* padding-top: 2.5rem; */
+}
+
+#projects {
+    background-color: #2E4156;
+    color: #e6e9ed;
+}
+
+#contact {
+    background-color: #8e9c9c;
+    padding-top: 2.5rem;
+}
+
+footer {
+    background-color: #1A2D42   ;
+    color: #e6e9ed;
+    padding-bottom: 10px;
+    
+}
+
+footer span a {
+    color: #e6e9ed;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#span {
+    opacity: 60%;
+}
+
+section {
+    padding-top: 6rem;
+}
+
+#nama {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: Color 4s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color {
+  0% {
+    color: #a0d468;
+  }
+
+  20% {
+    color: #4fc1e9;
+  }
+
+  40% {
+    color: #ffce54;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
+}
+
+@-moz-keyframes Color {
+  0% {
+    color: #a0d468;
+  }
+
+  20% {
+    color: #4fc1e9;
+  }
+
+  40% {
+    color: #ffce54;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
+}
+
+@-webkit-keyframes Color {
+  0% {
+    color: #a0d468;
+  }
+
+  20% {
+    color: #4fc1e9;
+  }
+
+  40% {
+    color: #ffce54;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
+}
