@@ -51,9 +51,26 @@ section {
 #nama {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 13px;
     animation: Color 4s linear infinite;
     -webkit-animation: Color 4s ease-in-out infinite;
 }
+
+#cardBody {
+  text-decoration: none;
+  color: black;
+}
+
+#card2 {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#card2:hover {
+  transform: scale(1.1);
+  background-color: rgb(188, 188, 188);
+}
+
 
 @keyframes Color {
   0% {
