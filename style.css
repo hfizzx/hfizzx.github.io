@@ -62,12 +62,12 @@ section {
 }
 
 #card2 {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 
 #card2:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   background-color: rgb(188, 188, 188);
 }
 
